@@ -26,7 +26,7 @@ function App() {
             component={() => <div>temporary component</div>}
           />
           <Route exact path='/tama' component={Tama} />
-          <Route exact path='/' component={Home} />
+          <Route exact path='/contact' component={Home} />
           <Route exact path='/4' component={Component1} />
           <Route exact path='/test' component={() => <div>test</div>} />
           <Redirect from='*' to='/' />

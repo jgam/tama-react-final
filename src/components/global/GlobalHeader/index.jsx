@@ -42,6 +42,7 @@ const GlobalHeader = () => {
         >
           {NAV_TITLE.map(title => (
             <GLink
+              key={title}
               linkTitle={title}
               css={css`
                 margin-right: 10px;
