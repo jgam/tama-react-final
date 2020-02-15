@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Tama = () => {
-  return <div>this is tama component</div>;
+  return <div></div>;
 };
 
 export default Tama;
